@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#bad2a4"
+    tools:context="com.example.omarf.firstprojectdemo.Fragment.ScreenSlidePlayFragment">
+
+
+    <TextView
+        android:id="@+id/question_text_view"
+        style="?android:textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the capital of Bangladesh?"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:id="@+id/answer_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question_text_view"
+        >
+
+        <RadioButton
+            android:id="@+id/first_choice_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/second_choice_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/third_choice_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/fourth_choice_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:textSize="20dp"/>
+    </RadioGroup>
+</RelativeLayout>

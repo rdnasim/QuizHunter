@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--TODO: add a icon-->
+<item android:id="@+id/add_menu_item"
+    app:showAsAction="ifRoom"
+    android:title="@string/add"/>
+    <!--<item android:id="@+id/play_menu_item"
+        android:title="Play"
+        app:showAsAction="never"/>-->
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:id="@+id/question_text_view"
+            style="?android:textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="What is the capital of Bangladesh?" />
+
+
+
+        <RadioButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/first_choice_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:layout_below="@+id/question_text_view"
+            android:layout_alignParentLeft="true"
+            android:clickable="false"
+            />
+
+        <RadioButton
+            android:id="@+id/second_choice_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:layout_alignBottom="@+id/first_choice_radio_button"
+            android:layout_alignParentRight="true"
+            android:clickable="false"/>
+
+        <RadioButton
+            android:id="@+id/third_choice_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first_choice_radio_button"
+            android:text="Dhaka"
+            android:clickable="false"/>
+
+        <RadioButton
+            android:id="@+id/fourth_choice_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second_choice_radio_button"
+            android:layout_alignParentRight="true"
+            android:text="Dhaka"
+            android:clickable="false"/>
+
+    </RelativeLayout>
